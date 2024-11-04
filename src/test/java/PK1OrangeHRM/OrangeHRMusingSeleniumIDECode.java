@@ -38,7 +38,7 @@ public class OrangeHRMusingSeleniumIDECode {
 		  
 		  
 		  
-		  
+		Thread.sleep(5000);
 	    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	    driver.manage().window().setSize(new Dimension(1382, 744));
 	   // driver.findElement(By.name("username")).click();
